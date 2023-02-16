@@ -32,17 +32,80 @@
             height: 812px;
             margin: 0 auto;
          }
-        
+         .btn01{
+            margin-right:12px;
+        }
+         /* .btn-box{
+            padding:0 24px; 
+         } */
+         .btn{
+            float:left;
+            width:150px;
+            margin-bottom:16px;  
+            
+         }
+         .btn{
+            display:inline-block;
+            width:inherit;
+            border-radius:28px;
+            padding:17px 0;
+            font-family:'Noto Sans KR';
+            font-weight:700;
+            font-size:14px;
+            color:#ffffff;
+            text-align:center;
+            background-color:#e4af93;
+         }
+         .btn01, .btn02{
+            width:165px;
+            height:65px;
+            border:2px solid #e4af93;
+            color:#e4af93;
+            background-color:#ffffff;
+        }
+        .btn03{
+            width:345px;
+            height:65px;
+            border:2px solid #6e8ce1;
+            color:#6e8ce1;
+            background-color:#ffffff;
+        }
+         .btn02 a{
+            color:#e4af93;
+            text-decoration:none;
+         }
+         .btn01:hover{
+            background-color: #e4af93;
+            color:#ffffff;
+         }
+         .btn02:hover{
+            background-color: #e4af93;
+         }
+         .btn02 a:hover{
+            background-color: #e4af93;
+            color:#ffffff;
+         }
+         .btn03:hover{
+            background-color: #6e8ce1;
+            color:#ffffff;
+         }
     </style>
 </head>
 <body>
    <div> 
     <div id="warp">
-        <img src="../Design/베스트이미지.jpg" alt="베스트페이지" usemap="#workmap">
+        <img src="../Design/BEST_image.png" alt="베스트페이지" usemap="#workmap">
         <map name="workmap">
             <area shape="rect" coords="193px, 563px, 358px, 628px" href="./LOGIN.html" alt="로그인으로이동">
+            
             <area shape="rect" coords="15px, 93px, 122px, 116px" href="./index.html" alt="인덱스로이동">
         </map>
+        <div class="btn-box">
+            <div class="btn btn01">Legister</div>
+            <div class="btn btn02">
+                <a href="./login.html">Log In</a>                
+            </div>
+            <div class="btn btn03">Connect With Facebook</div>
     </div>
     
 </body>
